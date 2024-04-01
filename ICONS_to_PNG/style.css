@@ -1,0 +1,36 @@
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 50px);
+
+}
+
+.main-div {
+    display: flex;
+}
+
+#icon-container {
+    margin-left: 30px;
+    margin-right: 10px;
+    background-color: transparent;
+}
+
+#download-btn {
+    padding: 10px;
+    background-color: #34393d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#icon-dropdown {
+    margin-right: 10px;
+}
+
+#icon-size-slider,
+#color-picker {
+    width: 100%;
+    margin-top: 10px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div>
+            <h1>Convert ICONS to PNG image extension</h1>
+            <div class="main-div">
+                <div>
+                    <div>
+                        <label for="icon-dropdown">Select an icon:</label>
+                        <select id="icon-dropdown">
+                            <option value="fas fa-star">Star</option>
+                            <option value="far fa-chart-bar">Chart Bar</option>
+                            <option value="fab fa-youtube">Youtube</option>
+                            <option value="fab fa-facebook">Facebook</option>
+                            <option value="fa fa-battery">Battery</option>
+                            <option value="fab fa-whatsapp">Whatsapp</option>
+                            <option value="fab fa-twitter">Twitter</option>
+                            <option value="fab fa-apple">Apple</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="icon-size-slider">Icon Size:</label>
+                        <input type="range" id="icon-size-slider" min="10" max="250" value="100">
+                    </div>
+                    <div>
+                        <label for="color-picker">Icon Color:</label>
+                        <input type="color" id="color-picker" value="#3498db">
+                    </div>
+                    <div>
+                        <button id="download-btn">Download PNG</button>
+                    </div>
+                </div>
+
+                <div id="icon-container">
+                    <!-- Icon will be dynamically added here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
