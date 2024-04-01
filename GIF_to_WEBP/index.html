@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIF to WEBP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="main-container">
+    <div>
+        <h1>Convert GIF to WEBP image extension</h1>
+        <div style="display: flex;">
+            <div id="imgAction">
+                <h1>Image Actions</h1>
+                <input type="file" id="fileInput" onchange="handleFileSelect()" accept=".gif" />
+                <button id="gif" onclick="convertToGif()">Convert with WEBP</button>
+                <p id="dbtn"></p>
+            </div>
+
+            <div id="imgdemo">
+                <h1>Image Demo</h1>
+                <!-- Image will be dynamically added or replaced here -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
