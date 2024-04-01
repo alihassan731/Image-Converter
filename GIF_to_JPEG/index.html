@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIF to JPEG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="main-container">
+    <div>
+        <h1>Convert GIF to JPEG image extension</h1>
+        <div style="display: flex;">
+            <div id="imgAction">
+                <h1>Image Actions</h1>
+                <input type="file" id="fileInput" onchange="handleFileSelect()" accept=".gif" />
+                <button id="gif" onclick="convertToGif()">Download with JPEG</button>
+            </div>
+
+            <div id="imgdemo">
+                <h1>Image Demo</h1>
+                <!-- Image will be dynamically added or replaced here -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
