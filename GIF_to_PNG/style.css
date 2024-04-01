@@ -1,0 +1,18 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgAction,
+#imgdemo {
+    width: 300px;
+    height: 250px;
+    border: 1px solid;
+    margin: 5px;
+    padding: 5px;
+}
+
+#gif {
+    margin-top: 5px;
+}
